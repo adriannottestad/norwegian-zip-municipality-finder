@@ -1,3 +1,13 @@
+Et (ENKELT) verktøy for å sjekke hvilken norsk kommune et gitt postnummer tilhører. 
+
+Verktøyet ber om et postnummer, validerer dette som gyldig (fire siffer), og leter opp kommunen det tilhører. 
+
+En stor takk til Erik Bolstad på http://erikbolstad.no/ for et imponerende arbeid med å hente inn, og utvide datasettet med norske kommuner og postnummer. 
+
+PS: Jeg bruker Bolstads liste fordi Posten / Brings liste ikke hadde korrekt tegnsett for norske bokstaver [sic].
+
+======
+
 A (SIMPLE) tool for checking which norwegian municipality a given zip code belongs to.
 
 When run, the tool prompts for zip-code, which is validated as valid (4-digit number), and checked against a list of zip's and municipalities in Norway. 
