@@ -1,1 +1,5 @@
 A (SIMPLE) tool for checking which norwegian municipality a given zip code belongs to.
+
+When run, the tool prompts for zip-code, which is validated as valid (4-digit number), and checked against a list of zip's and municipalities in Norway. 
+
+A big thanks to Erik Bolstad at http://www.erikbolstad.no/ for the job of gathering norwegian ZIP-numbers with additional data. 
