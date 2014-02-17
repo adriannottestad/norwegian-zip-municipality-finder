@@ -15,7 +15,7 @@ result = Net::HTTP.start(uri.host, uri.port) { |http| http.get(uri.path) }
 #THIS DETERMINES WHETHER TO USE REMOTE VERSION OF CSV (IF THIS EXISTS) OR LOCAL COPY)
 	unless result.code =="200"
 		puts "USING LOCAL FILE"
-		zipfile = File.open(File.join(File.dirname(__FILE__),'postnummer.csv'))
+		zipfile = File.open(File.join(File.dirname(__FILE__),'lib/postnummer.csv'))
 
 	else 
 		puts "USING REMOTE LIST"
